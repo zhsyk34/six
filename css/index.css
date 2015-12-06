@@ -1,0 +1,62 @@
+body {
+	font-family: KaiTi, serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	padding: 10px;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	height: 50px;
+}
+
+tr:hover {
+	background: #eee;
+}
+
+.no, .year, .period, .result {
+	font-family: Arial;
+}
+
+th, td {
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.result div {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	font-weight: 500;
+}
+
+.result div:after {
+	display: inline-block;
+	content: '';
+	height: 100%;
+	vertical-align: middle;
+}
+
+.red {
+	background: #f00;
+}
+
+.blue {
+	background: #0314F4;
+}
+
+.green {
+	background: #12A912;
+}
